@@ -1,5 +1,7 @@
 Config = {}
 
+Config.Inventory = "qb"
+
 Config.WasherProp = "prop_washer_01"
 Config.WasherLocations = {
     vector4(-82.8, -2206.82, 7.81, 174.38),
@@ -14,3 +16,4 @@ Config.Items = {
 
 Config.CleaningTime = 15 -- ( In Minutes )
 Config.Blip = true
+

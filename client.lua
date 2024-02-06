@@ -70,7 +70,7 @@ options = {
     label = 'Wash Money', 
 },
 },
-distance = 2, -- This is the distance for you to be at for the target to turn blue, this is in GTA units and has to be a float value
+distance = 2, 
 })
 
 
