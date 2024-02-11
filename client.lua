@@ -2,7 +2,8 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 
 for _, loc in ipairs(Config.WasherLocations) do 
-    local washer_prop = CreateObject(Config.WasherProp, loc.x, loc.y, loc.z - 1, loc.w, true, true, true)
+    local washer_prop = CreateObject(Config.WasherProp, loc.x, loc.y, loc.z - 1, true, true, true)
+    SetEntityRotation(washer_prop, 1, 1 , loc.w)
     FreezeEntityPosition(washer_prop, true)
 
 
